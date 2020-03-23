@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <environment>UAT</environment>
+  <configuration>Debug</configuration>
+  <URL>https://uat.tms-dms.com.sg</URL>
+  
+  <farm_acct>tms-dms\spadminuat</farm_acct>
+  <service_acct>tms-dms\spadminuat</service_acct>
+  <crawl_acct></crawl_acct>
+  <app_short_name>DMS</app_short_name>
+  <search_app>Office Search Service</search_app>
+  <search_proxy>Office Search Service</search_proxy>
+  <wsp_path>\wsp\</wsp_path>
+  <dll_path>\dll\</dll_path>
+
+  <solution_path>
+  </solution_path>
+  <solutions>
+    <solution id="TMS.DMS.Branding.wsp" toDeploy="true" webapp="false" GACdeploy="true" />
+    <solution id="TMS.DMS.CompanyTimerJob.wsp" toDeploy="true" webapp="false" GACdeploy="true" />
+    <solution id="TMS.DMS.EventReceivers.wsp" toDeploy="true" webapp="false" GACdeploy="true" />
+	<solution id="TMS.DMS.Company.Base.wsp" toDeploy="true" webapp="false" GACdeploy="true" />
+ </solutions>
+
+  <features>
+    <feature id="TMS.DMS.Branding_Feature1" scope="site" />
+  </features>
+</config>
