@@ -1,0 +1,9 @@
+{
+    "SubscriptionId":"338f5f36-eede-4e99-a387-8daff6d69acf",
+    "TenantId":"f0b2f579-2f09-4daf-839f-abf49b0d8dcc",
+    "TenantName":"Zoltiva",
+    "VirtualDesktopConsentPage":"https://rdweb.wvd.microsoft.com/",
+    "VirtualDesktopDeploymentUrl":"https://rdbroker.wvd.microsoft.com",
+    "HostPoolName":"HostPool1",
+    "Users":["antonio@antoniogatti.net"]
+}
